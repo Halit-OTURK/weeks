@@ -5,5 +5,13 @@ public class Tesla extends Car{
         super("Tesla", model, year, price, color, miles);
     }
 
+    public void autoPilot(){
+        System.out.println(brand+" "+model+" in autopilot mode");
+    }
+
+    @Override
+    public void start() {
+        System.out.println("Say \"Start\" to start "+brand+" "+model);
+    }
 
 }
