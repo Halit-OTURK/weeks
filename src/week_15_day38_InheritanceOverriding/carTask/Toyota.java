@@ -17,15 +17,6 @@ public class Toyota extends Car{
             System.out.println("Twist the key to ignition to start "+brand+" "+model);
         }
 
-        public String toString () {
-            return "Toyota{" +
-                    "brand='" + brand + '\'' +
-                    ", model='" + model + '\'' +
-                    ", year=" + year +
-                    ", price=" + price +
-                    ", color='" + color + '\'' +
-                    ", miles=" + miles +
-                    '}';
-        }
+
     }
 
