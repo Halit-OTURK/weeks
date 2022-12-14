@@ -18,4 +18,16 @@ public class BMW extends Car{
     public void start(){
         System.out.println("Call mechanic to jump start "+brand+" "+model);
     }
+
+    @Override
+    public String toString() {
+        return "BMW{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
+    }
 }
