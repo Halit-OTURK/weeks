@@ -4,7 +4,7 @@ public class Rectangle extends Shape {
 
     private double length,width;
 
-    public Rectangle(String name,double length, double width) {
+    public Rectangle(double length, double width) {
         super("Rectangle");
         setLength(length);
         setWidth(width);
