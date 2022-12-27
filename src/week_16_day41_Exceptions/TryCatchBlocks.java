@@ -23,7 +23,7 @@ public class TryCatchBlocks {
 
         }
 
-
+// ctrl+alt+t => short cut try & catch block
 
 
         System.out.println("Test1 Completed");
