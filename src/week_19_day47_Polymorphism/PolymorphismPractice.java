@@ -1,9 +1,10 @@
 package week_19_day47_Polymorphism;
 
-import day38_Inheritance.carTask.BMW;
-import day38_Inheritance.carTask.Car;
-import day38_Inheritance.carTask.Tesla;
-import day38_Inheritance.carTask.Toyota;
+
+import week_15_day38_InheritanceOverriding.carTask.BMW;
+import week_15_day38_InheritanceOverriding.carTask.Car;
+import week_15_day38_InheritanceOverriding.carTask.Tesla;
+import week_15_day38_InheritanceOverriding.carTask.Toyota;
 
 public class PolymorphismPractice {
 
