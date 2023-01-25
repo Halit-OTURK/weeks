@@ -16,8 +16,8 @@ public class IterablePractice2 {
 
         Iterator<String> it = names.iterator();
 
-        while(it.hasNext()){
-            if(it.next().equalsIgnoreCase("ahmed")){
+        while (it.hasNext()) {
+            if (it.next().equalsIgnoreCase("ahmed")) {
                 it.remove();
             }
         }
@@ -26,8 +26,31 @@ public class IterablePractice2 {
 
         System.out.println("<=>".repeat(35));
 
+        List<String> names2 = new ArrayList<>();
+        names2.addAll(Arrays.asList(
+                "Ahmed", "ahmed", "aHmEd", "John", "Ercon", "Daniel", "Mustafa", "Mohammed", "Ahmed", "ahmed", "Yuliia", "Chris"
+        ));
+
+        for (Iterator<String> it2 = names2.iterator(); it2.hasNext(); ) {
+            if (it2.next().equalsIgnoreCase("ahmed")) {
+                it2.remove();
+            }
+
+        }
 
 
+        System.out.println(names2);
+
+        System.out.println("<=>".repeat(35));
+
+        List<String> names3 = new ArrayList<>();
+        names3.addAll(Arrays.asList(
+                "Ahmed", "ahmed", "aHmEd", "John", "Ercon", "Daniel", "Mustafa", "Mohammed", "Ahmed", "ahmed", "Yuliia", "Chris"
+        ));
+
+        names3.removeIf(each -> each.equalsIgnoreCase("ahmed"));
+
+        System.out.println(names3);
 
     }
 }
